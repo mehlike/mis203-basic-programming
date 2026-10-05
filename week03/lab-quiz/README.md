@@ -1,5 +1,7 @@
 #Week03 lab: order approval policy
+
 test table
+
 unit price / stock / quantity / member / result
 
 100        / 10     / 0       / yes    / rejected: invalid quantity
