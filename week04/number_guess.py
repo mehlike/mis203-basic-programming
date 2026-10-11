@@ -22,7 +22,7 @@ while attempts > 0:
     print("Guess a LOWER number!") 
   attempts -= 1
   if attempts == 2:
-    square_root = round(math.sqrt(secret_number), 2)
-    print(f"\n HINT: The square root of the secret number is about {square_root}!")
+    square_root = math.sqrt(secret_number)
+    print(f"\n HINT: The square root of the secret number is about {square_root:.2f} ")
 if attempts == 0:
   print(f"\n Unfotunately, you ran out of attempts! The number was: {secret_number}.")
