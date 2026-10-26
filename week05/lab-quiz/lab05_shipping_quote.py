@@ -23,3 +23,5 @@ disc2 = calculate_discount_rate(sub2)
 ship2 = calculate_shipping_fee(sub2)
 total2 = calculate_final_total(sub2, disc2, ship2)
 print("order 2 total:", total2)
+
+# Print is showing the answer on the screen for humans to see, while return is handing the final result back to the code so it can keep using it. 
